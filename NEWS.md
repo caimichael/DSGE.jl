@@ -1,3 +1,9 @@
+# DSGE.jl v0.1.6 Release Notes
+
+## Deprecation Fixes
+- Optim.jl's `MultivariateOptimizationResults` type requires `f_increased` field
+- `MersenneTwister` must be constructed with a seed
+
 # DSGE.jl v0.1.5 Release Notes
 
 ## New Features
